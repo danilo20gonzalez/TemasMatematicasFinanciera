@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemáticas Financieras</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Temas de Matemáticas Financieras</h1>
+        </header>
+        <section class="menu">
+            <div class="menu-item" onclick="mostrarSubtemas('conceptos_iniciales')">
+                <h2>1. Conceptos Iniciales</h2>
+            </div>
+            <div id="conceptos_iniciales" class="subtemas">
+                <ul>
+                    <li>Líneas de tiempo</li>
+                    <li>Equivalencias en el tiempo</li>
+                    <li>Valor futuro</li>
+                    <li>Valor presente</li>
+                    <li>Interés simple e interés compuesto</li>
+                </ul>
+            </div>
+
+            <div class="menu-item" onclick="mostrarSubtemas('tasas_interes')">
+                <h2>2. Tasas de interés</h2>
+            </div>
+            <div id="tasas_interes" class="subtemas">
+                <ul>
+                    <li>Equivalencias entre tasas efectivas</li>
+                    <li>Equivalencias entre tasas nominales</li>
+                    <li>Tasa de interés anticipado</li>
+                </ul>
+            </div>
+
+            <div class="menu-item" onclick="mostrarSubtemas('series_uniformes')">
+                <h2>3. Series Uniformes</h2>
+            </div>
+            <div id="series_uniformes" class="subtemas">
+                <ul>
+                    <li>Series uniforme</li>
+                </ul>
+            </div>
+
+            <div class="menu-item" onclick="mostrarSubtemas('modelos_evaluacion')">
+                <h2>4. Modelos de evaluación financiera</h2>
+            </div>
+            <div id="modelos_evaluacion" class="subtemas">
+                <ul>
+                    <li>Valor presente neto (VPN)</li>
+                    <li>Tasa interna de retorno (TIR)</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <script src="JS/Main.js"></script>
+</body>
+</html>
+
